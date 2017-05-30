@@ -226,13 +226,13 @@
 	"5": {
 		"sccs": {
 			"list": {
-				"customScript": "java -jar /home/ebarajas/app/IaaSBots.jar -u ${user} -p ${password} -d ${domain} -a status -s sccs"
+				"customScript": "java -jar /storage2/cloud/utils/bin/IaaSBots/IaaSBots.jar -u ${user} -p ${password} -d ${domain} -a status -s sccs"
 			},
 			"delete": {
-				"customScript": "java -jar /home/ebarajas/app/IaaSBots.jar -u ${user} -p ${password} -d ${domain} -r '${recipe}'"
+				"customScript": "java -jar /storage2/cloud/utils/bin/IaaSBots/IaaSBots.jar -u ${user} -p ${password} -d ${domain} -r '${recipe}'"
 			},
 			"create": {
-				"customScript": "java -jar /home/ebarajas/app/IaaSBots.jar -u ${user} -p ${password} -d ${domain} -r '${recipe}'"
+				"customScript": "java -jar /storage2/cloud/utils/bin/IaaSBots/IaaSBots.jar -u ${user} -p ${password} -d ${domain} -r '${recipe}'"
 			}
 		}
 	}
