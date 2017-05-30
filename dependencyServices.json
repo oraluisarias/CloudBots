@@ -1,0 +1,239 @@
+{
+	"0": {
+		"stack": {
+			"list": {
+				"service": "list",
+				"templates": "list-templates"
+			},
+			"delete": {
+				"service": "delete --name=",
+				"templates": "delete-template --template-name="
+			},
+			"status": {
+				"service": "describe --stack-name="
+			}
+		}
+	},
+	"1": {
+		"soa": {
+			"list": {
+				"service": "services"
+			},
+			"delete": {
+				"service": "delete-service --force-delete=true --dba-name=SYS --dba-password=Weblogic123# --service-name="
+			},
+			"status": {
+				"service": "service --service-name="
+			}
+		},
+		"iotassetmon": {
+			"list": {
+				"service": "services"
+			},
+			"delete": {
+				"service": "delete-service --force=true --service-name="
+			},
+			"status": {
+				"service": "service --service-name="
+			}
+		},
+		"iotenterpriseapps": {
+			"list": {
+				"service": "services"
+			},
+			"delete": {
+				"service": "delete-service --force=true --service-name="
+			},
+			"status": {
+				"service": "service --service-name="
+			}
+		},
+		"iotfleetmon": {
+			"list": {
+				"service": "services"
+			},
+			"delete": {
+				"service": "delete-service --force=true --service-name="
+			},
+			"status": {
+				"service": "service --service-name="
+			}
+		},
+		"iotprodmonitoring": {
+			"list": {
+				"service": "services"
+			},
+			"delete": {
+				"service": "delete-service --force=true --service-name="
+			},
+			"status": {
+				"service": "service --service-name="
+			}
+		}
+	},
+	"2": {
+		"analytics": {
+			"list": {
+				"service": "services"
+			},
+			"delete": {
+				"service": "delete-service --force=true --service-name="
+			},
+			"status": {
+				"service": "service --service-name="
+			}
+		},
+		"container": {
+			"list": {
+				"service": "services"
+			},
+			"delete": {
+				"service": "delete-service --force=true --service-name="
+			},
+			"status": {
+				"service": "service --service-name="
+			}
+		},
+		"jcs": {
+			"list": {
+				"service": "services"
+			},
+			"delete": {
+				"service": "delete-service --force-delete=true --dba-name=SYS --dba-password=Weblogic123# --service-name="
+			},
+			"status": {
+				"service": "service --service-name="
+			}
+		},
+		"accs": {
+			"list": {
+				"service": "apps"
+			},
+			"delete": {
+				"service": "delete --app-name="
+			},
+			"status": {
+				"service": "service --service-name="
+			}
+
+		},
+		"idcscontrolplane": {
+			"list": {
+
+				"service": "services"
+			},
+			"delete": {
+				"service": "delete-service --force=true --service-name="
+			},
+			"status": {
+				"service": "service --service-name="
+			}
+		},
+		"oehcs": {
+			"list": {
+				"service": "services"
+			},
+			"delete": {
+				"service": "delete-service --force=true --service-name="
+			},
+			"status": {
+				"service": "service --service-name="
+			}
+		},
+		"caching": {
+			"list": {
+				"service": "services"
+			},
+			"delete": {
+				"service": "delete-service --force=true --service-name="
+			},
+			"status": {
+				"service": "service --service-name="
+			}
+		},
+		"idcs": {
+			"list": {
+				"service": "services"
+			},
+			"delete": {
+				"service": "delete-service --force=true --service-name="
+			},
+			"status": {
+				"service": "service --service-name="
+			}
+		}
+	},
+	"3": {
+		"oehpcs": {
+			"list": {
+				"service": "services"
+			},
+			"delete": {
+				"service": "delete-service --force=true --service-name="
+			},
+			"status": {
+				"service": "service --service-name="
+			}
+		},
+
+		"bdcsce": {
+			"list": {
+				"service": "services"
+			},
+			"delete": {
+				"service": "delete-service --force=true --service-name="
+			},
+			"status": {
+				"service": "service --service-name="
+			}
+		},
+		"ggcs": {
+			"list": {
+				"service": "services"
+			},
+			"delete": {
+				"service": "delete-service --force=true --service-name="
+			},
+			"status": {
+				"service": "service --service-name="
+			}
+		}
+	},
+	"4": {
+		"mysqlcs": {
+			"list": {
+				"service": "services"
+			},
+			"delete": {
+				"service": "delete-service --force=true --service-name="
+			},
+			"status": {
+				"service": "service --service-name="
+			}
+		},
+		"dbcs": {
+			"list": {
+				"service": "services"
+			},
+			"delete": {
+				"service": "delete-service --service-name="
+			},
+			"status": {
+				"service": "service --service-name="
+			}
+		}
+	},
+	"5": {
+		"sccs": {
+			"list": {
+				"customScript": "java -jar /home/ebarajas/app/IaaSBots.jar -u ${user} -p ${password} -d ${domain} -a status -s sccs"
+			},
+			"delete": {
+				"customScript": "java -jar /home/ebarajas/app/IaaSBots.jar -u ${user} -p ${password} -d ${domain} -r '${recipe}'"
+			},
+			"create": {
+				"customScript": "java -jar /home/ebarajas/app/IaaSBots.jar -u ${user} -p ${password} -d ${domain} -r '${recipe}'"
+			}
+		}
+	}
+}

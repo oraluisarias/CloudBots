@@ -1,0 +1,14 @@
+{
+	"pathDependencyServices": "dependencyServices.json",
+	"pathDockerFile": "/storage2/cloud/utils/bin/docker_PSM/psm_container",
+	"pathRecipes": "/storage2/cloud/demos/public_compute/cloudbots_profiles",
+	"regions": "emea,us",
+	"successPSM": "'psm setup' was successful",
+	"demoCentalUser": "curl -X GET -H X-Oracle-Authorization:Z3NlLWRldm9wc193d0BvcmFjbGUuY29tOjVjWmJzWkxuMQ== https://adsweb.oracleads.com/apex/adsweb/parameters/democloud_admin_opc_email",
+	"demoCentalPass": "curl -X GET -H X-Oracle-Authorization:Z3NlLWRldm9wc193d0BvcmFjbGUuY29tOjVjWmJzWkxuMQ== https://adsweb.oracleads.com/apex/adsweb/parameters/democloud_admin_opc_password",
+	"demoCentalToken": "NzI5MzA1MTctMDY0NC00Nzk4LTk4OGYtOWE5OWRhNTBlY2Jj",
+	"securityGSEKey": "/storage2/cloud/security/ssh_keys/gse_recipe_key",
+	"securityGSEKeyPub": "/storage2/cloud/security/ssh_keys/gse_recipe_key.pub",
+	"securityAdminKey": "/storage2/cloud/security/ssh_keys/gse_admin_key",
+	"securityADminKeyPub": "/storage2/cloud/security/ssh_keys/gse_admin_key.pub"
+}
