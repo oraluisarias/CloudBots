@@ -1,7 +1,7 @@
 {
 	"pathDependencyServices": "dependencyServices.json",
 	"pathDockerFile": "/storage2/cloud/utils/bin/docker_PSM/psm_container",
-	"pathRecipes": "/storage2/cloud/demos/public_compute/cloudbots_profiles",
+	"pathRecipes": "/storage2/cloud/recipes/,
 	"regions": "emea,us",
 	"successPSM": "'psm setup' was successful",
 	"demoCentalUser": "curl -X GET -H X-Oracle-Authorization:Z3NlLWRldm9wc193d0BvcmFjbGUuY29tOjVjWmJzWkxuMQ== https://adsweb.oracleads.com/apex/adsweb/parameters/democloud_admin_opc_email",
